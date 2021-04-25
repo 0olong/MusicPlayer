@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Music Player</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="MusicPlayer.js"></script>
+        <script defer src="main.js"></script>
+    </head>
+    <body>
+        <div class="player">
+            <audio id="id-nowPlaying" src="assets/tracks/One%20Last%20Kiss.m4a" data-active="0"></audio>
+            <div id="id-playlist" class="hide">
+                <div class="track" data-path="assets/tracks/One Last Kiss.m4a" data-cover="assets/covers/One%20Last%20Kiss.png" data-artist="Hikaru Utada" data-name="One Last Kiss"></div>
+                <div class="track" data-path="assets/tracks/Fly Me To The Moon.m4a" data-cover="assets/covers/One%20Last%20Kiss.png" data-artist="Hikaru Utada" data-name="Fly Me To The Moon"></div>
+                <div class="track" data-path="assets/tracks/失去尼歐.mp3" data-cover="assets/covers/一些難過的時候可以聽的流行歌曲.jpeg" data-artist="脆弱少女組" data-name="失去尼歐"></div>
+                <div class="track" data-path="assets/tracks/Ride On Time.mp3" data-cover="assets/covers/ComeAlongII.jpg" data-artist="Tatsuro Yamashita" data-name="Ride On Time"></div>
+            </div>
+            <div id="info" class="info">
+                <span class="name">Say it</span>
+                <span class="artist">Flume</span>
+                <div class="progress-bar">
+                    <div class="current-time-tag"></div>
+                    <div class="hover"></div>
+                    <div class="inner">
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="control-panel" class="control-panel">
+                <div class="album-art"></div>
+                <div class="controls">
+                    <div id="id-prev-button" class="prev"></div>
+                    <div id="id-play-button" class="play"></div>
+                    <div id="id-next-button" class="next"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
