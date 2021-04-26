@@ -2,7 +2,7 @@
 
 html, body {
     position: relative;
-    min-height: 100vh;
+    min-height: 98vh;
     background-color: #fff0f5;
     display: flex;
     align-items: center;

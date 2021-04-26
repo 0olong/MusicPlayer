@@ -29,6 +29,8 @@ class MusicPlayer {
         this.playPrev = this.playPrev.bind(this)
         this.playPrevBtn.addEventListener('click', this.playPrev)
 
+        this.nowPlaying.addEventListener('ended', this.playNext)
+
         this.bindEventProgressBar()
     }
 
